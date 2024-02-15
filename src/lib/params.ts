@@ -31,8 +31,16 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.GitHub;
 		case Platform.Linkedin:
 			return Icons.LinkedIn;
+		case Platform.StackOverflow:
+			return Icons.StackOverflow;
+		case Platform.Facebook:
+			return Icons.Facebook;
 		case Platform.Email:
 			return Icons.Email
+		case Platform.Twitter:
+			return Icons.Twitter;
+		case Platform.Youtube:
+			return Icons.Youtube;
 	}
 };
 
