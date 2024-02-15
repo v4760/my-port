@@ -31,25 +31,17 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.GitHub;
 		case Platform.Linkedin:
 			return Icons.LinkedIn;
-		case Platform.StackOverflow:
-			return Icons.StackOverflow;
-		case Platform.Facebook:
-			return Icons.Facebook;
 		case Platform.Email:
-			return Icons.Email;
-		case Platform.Twitter:
-			return Icons.Twitter;
-		case Platform.Youtube:
-			return Icons.Youtube;
+			return Icons.Email
 	}
 };
 
 export const HOME: HomePageParams = {
 	title: 'Home',
-	name: 'Name',
-	lastName: 'LASTNAME',
+	name: 'Vikas',
+	lastName: 'Kagawad',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'A Data Engineer passionate about Data Science',
 	links: [
 		{ platform: Platform.GitHub, link: 'https://github.com/' },
 		{
